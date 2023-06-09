@@ -1,0 +1,289 @@
+@charset "UTF-8";
+
+* {
+	margin: 0%;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+header {
+	background-color: #353a40;
+	color: white;
+}
+
+#logo {
+	max-width: 150px;
+	max-height: 150px;
+	margin-left: 150px;
+}
+
+#navbarsExampleXxl {
+	margin-right: 150px;
+	font-size: x-large;
+}
+
+#compra {
+	color: #2b9043;
+}
+
+carrusel-img {
+	height: auto;
+	width: auto;
+	max-height: 200px;
+}
+
+.carrusel-text {
+	padding-bottom: 150px;
+}
+
+.title-text {
+	font-size: xx-large;
+}
+
+.text-xl {
+	font-size: x-large;
+}
+
+.button-carrusel {
+	padding: 10px;
+}
+
+.button-compra {
+	background-color: #29a744
+}
+
+.carrusel text {
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.filter {
+	-webkit-filter: brightness(60%);
+	filter: brightness(60%);
+}
+
+.no-filter {
+	-webkit-filter: brightness(100%);
+	filter: brightness(100%);
+}
+
+.oradores-text {
+	text-align: center;
+	margin: 0%;
+}
+
+.orador h1 {
+	text-align: center;
+}
+
+#card-lugar {
+	background-color: #343A40;
+	color: white;
+}
+
+#boton-lugar {
+	margin-left: 20px;
+}
+
+#dotted {
+	border-bottom: dotted;
+}
+
+#container-form {
+	padding-right: 200px;
+	padding-left: 200px;
+	text-align: center;
+}
+
+#container-form-compra {
+	padding-right: 200px;
+	padding-left: 200px;
+}
+
+#submit-button {
+	background-color: #96c93e;
+	border-radius: none;
+}
+
+#botonBorrar, #botonResumen {
+	background-color: #96c93e;
+	border-radius: none;
+	display: inline-flex;
+	flex-direction: row;
+	width: 49%;
+	justify-content: center;
+	margin-left: 5px;
+}
+
+#errores{
+	text-align:center;
+	margin:auto;
+	color: red;
+	padding-top:20px;
+	font-size: large;
+}
+
+footer {
+	background: linear-gradient(90deg, #1b3743 0%, #1e5371 80%);
+	padding: 20px;
+}
+
+#fixFooter {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+#elementos-footer a {
+	color: white;
+}
+
+@media ( max-height :950px) {
+	#fixFooter {
+		position: relative;
+		left: auto;
+		bottom: auto;
+		width: 100%;
+	}
+}
+
+@media ( max-width :1650px) {
+	#navbarsExampleXxl {
+		margin-right: 75px;
+		font-size: x-large;
+	}
+	#logo {
+		margin-left: 50px;
+	}
+}
+
+@media ( max-width :1500px) {
+	#navbarsExampleXxl {
+		margin-right: 5px;
+		font-size: large;
+	}
+	#logo {
+		margin-left: 25px;
+	}
+}
+
+@media ( max-width :1399px) {
+	#logo {
+		margin-left: 15px;
+	}
+	.carrusel-text {
+		padding-bottom: 100px;
+	}
+}
+
+.navbar-nav {
+	align-items: end;
+}
+
+@media ( max-width : 1200px) {
+	#container-form {
+		padding-right: 75px;
+		padding-left: 75px;
+	}
+	#container-form-compra {
+		padding-right: 75px;
+		padding-left: 75px;
+	}
+	.carrusel-text {
+		padding-bottom: 50px;
+	}
+}
+
+@media ( max-width : 1100px) {
+	.title-text {
+		font-size: large;
+	}
+	.text-xl {
+		font-size: medium;
+	}
+	.button-carrusel {
+		margin: 0;
+	}
+	#formCompra button {
+		margin-left: 0px;
+	}
+}
+
+@media ( max-width : 940px) {
+	.button-carrusel {
+		padding: 3px;
+		margin-bottom: 0 important;
+	}
+	.card-lugar {
+		width: auto;
+		height: 100%;
+	}
+	#boton-lugar {
+		margin-bottom: 10px;
+	}
+	#container-form {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	#container-form-compra {
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+	.carrusel-text {
+		padding-bottom: 10px;
+	}
+}
+
+@media ( max-width : 600px) {
+	#logo {
+		max-width: 100px;
+		max-height: 100px;
+		margin-left: 1 px;
+	}
+	.title-text {
+		font-size: medium;
+	}
+	.text-xl {
+		font-size: small;
+		line-height: 1.5;
+	}
+	#elementos-footer {
+		display: block;
+	}
+	.carrusel-text {
+		padding-bottom: 0px;
+	}
+}
+
+@media ( max-width : 500px) {
+	#navbarsExampleXxl {
+		font-size: medium;
+	}
+	.text-xl {
+		font-size: x-small;
+	}
+}
+
+@media ( max-width : 400px) {
+	.text-xl {
+		font-size: xx-small;
+		line-height: 1;
+	}
+	*h3 p:nth-child(1) {
+		margin-bottom: 0 rem;
+	}
+	#container-form {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+	#container-form-compra {
+		padding-right: 10px;
+		padding-left: 10px;
+	}
+}
+
+p {
+	margin-bottom: 0;
+}
