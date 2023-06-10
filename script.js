@@ -133,3 +133,6 @@ function calcularPrecio() {
 	precio = (cantidad * 200) * montoDescuento;
 	document.querySelector("#precio").textContent = "Total a pagar: $ " + precio;
 }
+}
+}
+)
